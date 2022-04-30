@@ -1,6 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  let licBadge = ${answers.license}
+  if (licBadge == 'Apache') {
+    licBadge == `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -31,7 +36,7 @@ ${answers.purpose}
 
 ## License
 
-🪪 ${answers.license}
+🪪 ${licBadge}
 
 ## Deployment
 
@@ -46,3 +51,4 @@ Feel free to contact me with any questions at: ${answers.email}
 }
 
 module.exports = generateMarkdown;
+renderLicenseBadge();
