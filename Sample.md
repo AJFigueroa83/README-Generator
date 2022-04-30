@@ -1,32 +1,31 @@
-# Some
+# 
+## License
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+undefined
+    
+
 ## Description
 
-🔎 help me.
-
+🔎 
 
 ## Installation
 
-💾 import
+💾 
 
 ## Purpose
 
-to kill me.
 
 
 ## Usage
 
-!Click [here](jajaja) to view the full instructional video.
-
-## License
-
-🪪 Apache
+Click [here]() to view the full instructional video.
 
 ## Deployment
 
-🚀 Click [here](booooo) to view the repo.  
-🚀 Click [here](meh) to view the deployed site.
+🚀 Click [here]() to view the repo.  
+🚀 Click [here]() to view the deployed site.
 
 ## Contact
 
-Feel free to contact me with any questions at: lololol
+Feel free to contact me with any questions at: 
 
