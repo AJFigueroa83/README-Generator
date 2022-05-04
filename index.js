@@ -22,13 +22,8 @@ const questions = [
     },
     {
         type: 'editor',
-        name: 'purpose',
-        message: 'What is the purpose of this project?'
-    },
-    {
-        type: 'input',
-        name: 'videoLink',
-        message: 'Input link to demo video or gif.'
+        name: 'usage',
+        message: 'Write a brief description on usage information'
     },
     {
         type: 'list',
@@ -38,8 +33,23 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'test',
+        message: 'Which tests did you run?'
+    },
+    {
+        type: 'editor',
+        name: 'contribution',
+        message: 'What are the projects contribution guidelines?'
+    }
+    {
+        type: 'input',
         name: 'github',
-        message: 'Input github link to the repository.'
+        message: 'What is your GitHub username?'
+    },
+    {
+        type: 'input',
+        name: 'githubrepo',
+        message: 'Input link to repository'
     },
     {
         type: 'input',
