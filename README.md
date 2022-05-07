@@ -7,6 +7,9 @@
 ## Installation
 
 💾 This program runs with the *inquirer package* which has to be installed prior to running. 
+In the command line:   
+**Run** npm init -y  
+**Then** npm install inquirer
 
 ## Purpose
 

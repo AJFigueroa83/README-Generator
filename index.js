@@ -40,7 +40,7 @@ const questions = [
         type: 'editor',
         name: 'contribution',
         message: 'What are the projects contribution guidelines?'
-    }
+    },
     {
         type: 'input',
         name: 'github',
@@ -67,7 +67,7 @@ const questions = [
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
-        const filename = 'Sample.md';
+        const filename = 'Example.md';
 
         // TODO: Create a function to write README file
         fs.writeFile(filename, generateMarkdown(answers), (err) => 

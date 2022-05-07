@@ -88,12 +88,13 @@ function renderLicenseBadge(license) {
 function renderLicenseSection(license) {
   if (license) {
     return `License
-${renderLicenseBadge(license)}  
+${renderLicenseBadge(license)}
+${renderLicenseLink(license)}  
     `
     } else {
       return
     }
-  }
+}
 
 
 // TODO: Create a function to generate markdown for README
@@ -103,13 +104,13 @@ function generateMarkdown(answers) {
 
 ## Table of Contents
 
--[Description](#Description)
--[Installation](#Installation)
--[Usage](#Usage)
--[Contributing](Contributing)
--[Tests](Tests)
--[Deployment](#Deployment)
--[Questions](Questions)
+-[Description](#description)  
+-[Installation](#installation)  
+-[Usage](##usage)  
+-[Contributing](#contributing)  
+-[Tests](#tests)  
+-[Deployment](#deployment)  
+-[Questions](#questions)  
 
 
 ## Description
@@ -121,7 +122,6 @@ function generateMarkdown(answers) {
 💾 ${answers.installation}
 
 ## Usage
-
 ${answers.usage}
 
 ## Contributing
@@ -140,7 +140,7 @@ ${answers.test}
 ## Questions
 
 Please feel free to contact me with any questions via email at: ${answers.email}  
-Or reach out to me on: ${answers.github}
+Or reach out to me on GitHub, username: ${answers.github}
 
 `;
 }
