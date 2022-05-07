@@ -89,7 +89,6 @@ function renderLicenseSection(license) {
   if (license) {
     return `License
 ${renderLicenseBadge(license)}
-${renderLicenseLink(license)}  
     `
     } else {
       return
@@ -140,7 +139,7 @@ ${answers.test}
 ## Questions
 
 Please feel free to contact me with any questions via email at: ${answers.email}  
-Or reach out to me on GitHub, username: ${answers.github}
+Or reach out to me on GitHub, [${answers.github}](https://github.com/${answers.github})
 
 `;
 }

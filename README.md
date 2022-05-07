@@ -2,7 +2,7 @@
 
 ## Description
 
-🔎 This is a readme.md markdown generator. It is a simple to use application that uses node js to run. When running it prompts the user for some key information to help the user generate a readme file faster. The running program will ask questions like: "What is the project name?", "What is it's purpose?", among others. The line of questions follows the guidelines in the *Professional README Guide*.
+🔎 
 
 ## Installation
 
@@ -28,4 +28,4 @@ Lastly run *node index.js* and answer the questions.
 
 ## MockUp
 
-CLick [here]() to view the full video tutorial.
+CLick [here](https://drive.google.com/file/d/1JqaOjM8hfiDTZHS0ZpSFQ3VTayp_ZGJS/view) to view the full video tutorial.
